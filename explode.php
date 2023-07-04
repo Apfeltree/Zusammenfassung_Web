@@ -20,7 +20,7 @@
 
 
     
-        Parameter-Liste ¶
+        Parameter-Liste
 
         - separator
 

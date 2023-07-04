@@ -34,7 +34,7 @@
 
 
 
-        Rückgabewerte ¶
+        Rückgabewerte
 
             Gibt eine Zeichenkette mit einer Länge von bis zu length - 1 Bytes zurück, 
             die aus der Datei gelesen wurde, auf die stream zeigt.
