@@ -30,7 +30,7 @@
             Positiver Zahlenwert: Von links nach rechts auslesen
             Negativer Zahlenwert: Von rechts nach links auslesen
 
-        - length
+        - length | optionaler Parameter
 
             Positiver Zahlenwert: Länge ab offset
             Negativer Zahlenwert: Schneidet von rechts nach links den String ab
