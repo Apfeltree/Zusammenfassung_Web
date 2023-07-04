@@ -6,6 +6,39 @@
     <title>fread()</title>
 </head>
 <body>
+    <!-- 
+        fread
+
+            fread() liest bis zu length Bytes vom Dateizeiger stream. Das Lesen wird beendet, 
+            sobald eine der folgenden Bedingungen eintritt:
+
+            - length Bytes wurden gelesen
+            - Das Dateiende (EOF, end of file) wurde erreicht.
+
+
+
+        Syntax
+
+            fread(resource $stream, int $length): string|false
+
+
+        
+        Parameter-Liste
+
+        - stream
+
+            Eine Dateisystemressource (resource), wie sie in der Regel von fopen() zurückgegeben wird.
+
+        - length
+
+            Bis zu length Bytes lesen.
+
+
+  
+        Rückgabewerte
+
+            Gibt die ausgelesene Zeichenkette zurück. Bei einem Fehler wird false zurückgegeben.
+     -->
     <?php
         // Dateipfad setzen
         $filename = "somefile.txt";
