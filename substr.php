@@ -43,12 +43,26 @@
     -->
     <?php
         $rest = substr("abcdef", -1);    // gibt "f" zurück
+        var_dump($rest);
+        echo "<br>";
         $rest = substr("abcdef", -2);    // gibt "ef" zurück
+        var_dump($rest);
+        echo "<br>";
         $rest = substr("abcdef", -3, 1); // gibt "d" zurück
+        var_dump($rest);
+        echo "<br>";
         $rest = substr("abcdef", 0, -1);  // gibt "abcde" zurück
+        var_dump($rest);
+        echo "<br>";
         $rest = substr("abcdef", 2, -1);  // gibt "cde" zurück
+        var_dump($rest);
+        echo "<br>";
         $rest = substr("abcdef", 4, -4);  // gibt "" zurück; vor PHP 8.0.0 wurde false zurückgegeben
+        var_dump($rest);
+        echo "<br>";
         $rest = substr("abcdef", -3, -1); // gibt "de" zurück
+        var_dump($rest);
+
     ?>
 </body>
 </html>
