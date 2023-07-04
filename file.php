@@ -45,7 +45,7 @@
 
 
 
-        Rückgabewerte ¶
+        Rückgabewerte
 
             Gibt die Datei in einem Array zurück. Jedes Element des Arrays entspricht einer Zeile in der Datei, 
             ohne dass der Zeilenumbruch entfernt wird. Im Fehlerfall gibt file() false zurück.

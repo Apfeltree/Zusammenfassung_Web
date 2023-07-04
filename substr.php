@@ -6,6 +6,41 @@
     <title>Document</title>
 </head>
 <body>
+    <!-- 
+        substr
+
+            Gibt den Teil von string zurück, der durch die Parameter
+            offset und length definiert wurde.
+     
+        
+        Syntax
+
+            substr(string $string, int $offset, ?int $length = null): string
+
+        
+
+        Parameter-Liste
+
+        - string
+        
+            Der Eingabestring.
+
+        - offset
+
+            Positiver Zahlenwert: Von links nach rechts auslesen
+            Negativer Zahlenwert: Von rechts nach links auslesen
+
+        - length
+
+            Positiver Zahlenwert: Länge ab offset
+            Negativer Zahlenwert: Schneidet von rechts nach links den String ab
+        
+
+        Rückgabewert
+
+            Gibt den extrahierten Teil von string oder einen leeren String zurück.
+
+    -->
     <?php
         $rest = substr("abcdef", -1);    // gibt "f" zurück
         $rest = substr("abcdef", -2);    // gibt "ef" zurück
